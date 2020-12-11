@@ -1222,6 +1222,23 @@
       "spDefence": 40,
       "speed": 90
     }
+  }, {
+    "no": 52,
+    "name": "ニャース",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [863],
+    "types": ["はがね"],
+    "abilities": ["ものひろい", "かたいツメ"],
+    "hiddenAbilities": ["きんちょうかん"],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defence": 55,
+      "spAttack": 40,
+      "spDefence": 40,
+      "speed": 40
+    }
   },
   {
     "no": 53,
@@ -1762,6 +1779,23 @@
       "spDefence": 65,
       "speed": 90
     }
+  }, {
+    "no": 77,
+    "name": "ポニータ",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [78],
+    "types": ["エスパー"],
+    "abilities": ["にげあし", "パステルベール"],
+    "hiddenAbilities": ["きけんよち"],
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defence": 55,
+      "spAttack": 65,
+      "spDefence": 65,
+      "speed": 90
+    }
   },
   {
     "no": 78,
@@ -1780,6 +1814,24 @@
       "spDefence": 80,
       "speed": 105
     }
+  }
+{
+    "no": 78,
+    "name": "ギャロップ",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [],
+    "types": ["エスパー","フェアリー"],
+    "abilities": ["にげあし", "パステルベール"],
+    "hiddenAbilities": ["きけんよち"],
+    "stats": {
+      "hp": 65,
+      "attack": 100,
+      "defence": 70,
+      "spAttack": 80,
+      "spDefence": 80,
+      "speed": 105
+    }
   },
   {
     "no": 79,
@@ -1789,6 +1841,24 @@
     "evolutions": [80, 199],
     "types": ["みず", "エスパー"],
     "abilities": ["どんかん", "マイペース"],
+    "hiddenAbilities": ["さいせいりょく"],
+    "stats": {
+      "hp": 90,
+      "attack": 65,
+      "defence": 65,
+      "spAttack": 40,
+      "spDefence": 40,
+      "speed": 15
+    }
+  },
+  {
+    "no": 79,
+    "name": "ヤドン",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [80, 199],
+    "types": ["エスパー"],
+    "abilities": ["くいしんぼう", "マイペース"],
     "hiddenAbilities": ["さいせいりょく"],
     "stats": {
       "hp": 90,
@@ -1832,6 +1902,24 @@
       "defence": 180,
       "spAttack": 130,
       "spDefence": 80,
+      "speed": 30
+    }
+  },
+  {
+    "no": 80,
+    "name": "ヤドラン",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [],
+    "types": ["どく", "エスパー"],
+    "abilities": ["クイックドロウ", "マイペース"],
+    "hiddenAbilities": ["さいせいりょく"],
+    "stats": {
+      "hp": 95,
+      "attack": 100,
+      "defence": 95,
+      "spAttack": 100,
+      "spDefence": 70,
       "speed": 30
     }
   },
@@ -1887,6 +1975,24 @@
       "spAttack": 58,
       "spDefence": 62,
       "speed": 60
+    }
+  },
+  {
+    "no": 83,
+    "name": "カモネギ",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [865],
+    "types": ["かくとう"],
+    "abilities": ["ふくつのこころ"],
+    "hiddenAbilities": ["きもったま"],
+    "stats": {
+      "hp": 52,
+      "attack": 95,
+      "defence": 55,
+      "spAttack": 58,
+      "spDefence": 62,
+      "speed": 55
     }
   },
   {
@@ -2466,6 +2572,24 @@
     }
   },
   {
+    "no": 110,
+    "name": "マタドガス",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [],
+    "types": ["どく","フェアリー"],
+    "abilities": ["ふゆう","かがくへんかガス"],
+    "hiddenAbilities": ["ミストメイカー"],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defence": 120,
+      "spAttack": 85,
+      "spDefence": 70,
+      "speed": 60
+    }
+  },
+  {
     "no": 111,
     "name": "サイホーン",
     "form": "",
@@ -2697,6 +2821,24 @@
       "spAttack": 100,
       "spDefence": 120,
       "speed": 90
+    }
+  },
+  {
+    "no": 122,
+    "name": "バリヤード",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [866],
+    "types": ["こおり","エスパー"],
+    "abilities": ["やるき", "バリアフリー"],
+    "hiddenAbilities": ["アイスボディ"],
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defence": 65,
+      "spAttack": 90,
+      "spDefence": 90,
+      "speed": 100
     }
   },
   {
@@ -3150,6 +3292,24 @@
     }
   },
   {
+    "no": 144,
+    "name": "フリーザー",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [],
+    "types": ["エスパー", "ひこう"],
+    "abilities": ["かちき"],
+    "hiddenAbilities": [],
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defence": 85,
+      "spAttack": 125,
+      "spDefence": 100,
+      "speed": 95
+    }
+  },
+  {
     "no": 145,
     "name": "サンダー",
     "form": "",
@@ -3163,6 +3323,24 @@
       "attack": 90,
       "defence": 85,
       "spAttack": 125,
+      "spDefence": 90,
+      "speed": 100
+    }
+  },
+  {
+    "no": 145,
+    "name": "サンダー",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [],
+    "types": ["かくとう", "ひこう"],
+    "abilities": ["まけんき"],
+    "hiddenAbilities": [],
+    "stats": {
+      "hp": 90,
+      "attack": 125,
+      "defence": 90,
+      "spAttack": 85,
       "spDefence": 90,
       "speed": 100
     }
@@ -3182,6 +3360,24 @@
       "defence": 90,
       "spAttack": 125,
       "spDefence": 85,
+      "speed": 90
+    }
+  },
+  {
+    "no": 146,
+    "name": "ファイヤー",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [],
+    "types": ["あく", "ひこう"],
+    "abilities": ["ぎゃくじょう"],
+    "hiddenAbilities": [],
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defence": 90,
+      "spAttack": 100,
+      "spDefence": 125,
       "speed": 90
     }
   },
@@ -4194,6 +4390,24 @@
     }
   },
   {
+    "no": 199,
+    "name": "ヤドキング",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [],
+    "types": ["どく", "エスパー"],
+    "abilities": ["きみょうなくすり", "マイペース"],
+    "hiddenAbilities": ["さいせいりょく"],
+    "stats": {
+      "hp": 95,
+      "attack": 65,
+      "defence": 80,
+      "spAttack": 110,
+      "spDefence": 110,
+      "speed": 30
+    }
+  },
+  {
     "no": 200,
     "name": "ムウマ",
     "form": "",
@@ -4659,6 +4873,24 @@
       "spAttack": 65,
       "spDefence": 95,
       "speed": 35
+    }
+  },
+  {
+    "no": 222,
+    "name": "サニーゴ",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [864],
+    "types": ["ゴースト"],
+    "abilities": ["くだけるよろい"],
+    "hiddenAbilities": ["のろわれボディ"],
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defence": 100,
+      "spAttack": 65,
+      "spDefence": 100,
+      "speed": 30
     }
   },
   {
@@ -5490,12 +5722,48 @@
     }
   },
   {
+    "no": 263,
+    "name": "ジグザグマ",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [264],
+    "types": ["あく","ノーマル"],
+    "abilities": ["ものひろい", "くいしんぼう"],
+    "hiddenAbilities": ["はやあし"],
+    "stats": {
+      "hp": 38,
+      "attack": 30,
+      "defence": 41,
+      "spAttack": 30,
+      "spDefence": 41,
+      "speed": 60
+    }
+  },
+  {
     "no": 264,
     "name": "マッスグマ",
     "form": "",
     "isMegaEvolution": false,
     "evolutions": [],
     "types": ["ノーマル"],
+    "abilities": ["ものひろい", "くいしんぼう"],
+    "hiddenAbilities": ["はやあし"],
+    "stats": {
+      "hp": 78,
+      "attack": 70,
+      "defence": 61,
+      "spAttack": 50,
+      "spDefence": 61,
+      "speed": 100
+    }
+  },
+  {
+    "no": 264,
+    "name": "マッスグマ",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [862],
+    "types": ["あく","ノーマル"],
     "abilities": ["ものひろい", "くいしんぼう"],
     "hiddenAbilities": ["はやあし"],
     "stats": {
@@ -11412,6 +11680,24 @@
     }
   },
   {
+    "no": 554,
+    "name": "ダルマッカ",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [555],
+    "types": ["こおり"],
+    "abilities": ["はりきり"],
+    "hiddenAbilities": ["せいしんりょく"],
+    "stats": {
+      "hp": 70,
+      "attack": 90,
+      "defence": 45,
+      "spAttack": 15,
+      "spDefence": 45,
+      "speed": 50
+    }
+  },
+  {
     "no": 555,
     "name": "ヒヒダルマ",
     "form": "",
@@ -11445,6 +11731,42 @@
       "spAttack": 140,
       "spDefence": 105,
       "speed": 55
+    }
+  },
+  {
+    "no": 555,
+    "name": "ヒヒダルマ",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [],
+    "types": ["こおり"],
+    "abilities": ["ごりむちゅう"],
+    "hiddenAbilities": ["ダルマモード"],
+    "stats": {
+      "hp": 105,
+      "attack": 140,
+      "defence": 55,
+      "spAttack": 30,
+      "spDefence": 55,
+      "speed": 95
+    }
+  },
+  {
+    "no": 555,
+    "name": "ヒヒダルマ",
+    "form": "ガラルのすがた／ダルマモード",
+    "isMegaEvolution": false,
+    "evolutions": [],
+    "types": ["こおり", "ほのお"],
+    "abilities": [],
+    "hiddenAbilities": ["ダルマモード"],
+    "stats": {
+      "hp": 105,
+      "attack": 160,
+      "defence": 55,
+      "spAttack": 30,
+      "spDefence": 55,
+      "speed": 135
     }
   },
   {
@@ -11569,6 +11891,24 @@
       "attack": 30,
       "defence": 85,
       "spAttack": 55,
+      "spDefence": 65,
+      "speed": 30
+    }
+  },
+  {
+    "no": 562,
+    "name": "デスマス",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [867],
+    "types": ["じめん","ゴースト"],
+    "abilities": ["さまようたましい"],
+    "hiddenAbilities": [],
+    "stats": {
+      "hp": 38,
+      "attack": 55,
+      "defence": 85,
+      "spAttack": 30,
       "spDefence": 65,
       "speed": 30
     }
@@ -12578,6 +12918,24 @@
       "defence": 84,
       "spAttack": 81,
       "spDefence": 99,
+      "speed": 32
+    }
+  },
+  {
+    "no": 618,
+    "name": "マッギョ",
+    "form": "ガラルのすがた",
+    "isMegaEvolution": false,
+    "evolutions": [],
+    "types": ["じめん", "はがね"],
+    "abilities": ["ぎたい"],
+    "hiddenAbilities": [],
+    "stats": {
+      "hp": 109,
+      "attack": 81,
+      "defence": 99,
+      "spAttack": 66,
+      "spDefence": 84,
       "speed": 32
     }
   },
