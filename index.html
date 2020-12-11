@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang=ja>
+<head>
+	<meta charset="UTF-8">
+	<title>ポケモン検索サンプル</title>
+</head>
+<body>
+	<h1>ポケモン検索サンプル</h1>
+	<input type="search" onInput="searchinput();" id="searchbox"><br>
+	<select id="selectbox">
+		<option name="noselect">選択してください</option>
+	</select>
+	<script type="text/javascript">
+		var pokemon_data = [];
+		window.onload = function(){
+			setTimeout("readdata()",0);
+		};
+		function readdata(){
+			var json;
+			var c = new XMLHttpRequest();
+			c.open('get',"data/pokemon_data.json",false);
+			c.onload = function() {
+				try {
+					json = JSON.parse(this.responseText);
+				} catch (error) {
+					alert("データの読み込みに失敗しました。");
+				}
+			}
+			c.send(null);
+			pokemon_data = json;
+			pokemon_data = pokemondata_json();
+			setSelectbox("");
+		};
+		function setSelectbox(search){
+			search = hiraToKana(search);
+			for (var i = 0; i < pokemon_data.length; i++) {
+				var no = String(pokemon_data[i].no);
+				var name = pokemon_data[i].name;
+				var form = pokemon_data[i].form;
+				if(no.includes(search) || name.includes(search) || form.includes(search)){
+					var select = document.getElementById("selectbox");
+					var option = document.createElement("option");
+					option.text = no + " " + name + (form == "" ? "" : " | " + form);
+					option.value = i;
+					select.appendChild(option);
+				}
+			}
+		}
+		function searchinput(){
+			var select = document.getElementById("selectbox");
+			var options = select.options;
+			for (var i = options.length - 1; 0 <= i; --i) {
+				select.removeChild(options[i]);
+			}
+			setSelectbox(document.getElementById("searchbox").value);
+		};
+		function hiraToKana(str) {
+		    return str.replace(/[\u3041-\u3096]/g, function(match) {
+		        var chr = match.charCodeAt(0) + 0x60;
+		        return String.fromCharCode(chr);
+		    });
+		};
+    </script>
+  </body>
+<html>
