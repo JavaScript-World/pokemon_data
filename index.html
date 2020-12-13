@@ -66,7 +66,7 @@
 			var selectbox = document.getElementById("selectbox");
 			if(!(selectbox.value == "noselect" || selectbox.value == "")){
 				var d = pokemon_data[selectbox.value];
-        var evolutions = "":
+        var evolutions = "";
         if(d.evolutions.length > 0){
           d.evolutions.forEach(function(e_no){
             evolutions = evolutions + "<a onclick='document.getElementById(\"data\").value = \"" + e_no + "\";searchinput();' title='クリックすると検索ボックスに数字が入力され検索されます'>" + e_no + ", ";
