@@ -7,9 +7,10 @@
 <body>
 	<h1>ポケモン検索サンプル</h1>
 	<input type="search" onInput="searchinput();" id="searchbox"><br>
-	<select id="selectbox">
-		<option name="noselect">選択してください</option>
+	<select id="selectbox" onchange="setdata()">
+		<option name="noselect" value="noselect">選択してください</option>
 	</select>
+	<p id="data"></p>
 	<script type="text/javascript">
 		var pokemon_data = [];
 		window.onload = function(){
@@ -36,12 +37,13 @@
 				var no = String(pokemon_data[i].no);
 				var name = pokemon_data[i].name;
 				var form = pokemon_data[i].form;
-				if(no.includes(search) || name.includes(search) || form.includes(search)){
+				if(hiraToKana(no).includes(search) || hiraToKana(name).includes(search) || hiraToKana(form).includes(search)){
 					var select = document.getElementById("selectbox");
 					var option = document.createElement("option");
 					option.text = no + " " + name + (form == "" ? "" : " | " + form);
 					option.value = i;
 					select.appendChild(option);
+					setdata();
 				}
 			}
 		}
@@ -59,6 +61,14 @@
 		        return String.fromCharCode(chr);
 		    });
 		};
+		function setdata(){
+			var dataspace = document.getElementById("data");
+			var selectbox = document.getElementById("selectbox");
+			if(!(selectbox.value == "noselect" || selectbox.value == "")){
+				var d = pokemon_data[selectbox.value];
+				dataspace.innerHTML = "<h2>" + d.no + ": " + d.name + (d.form == "" ? "" : " | " + d.form) + (d.isMegaEvolution ? " [メガ]" : "") + "</h2>タイプ: " + d.types + "<br>とくせい: " + d.abilities + (d.hiddenAbilities != "" ? "<br>かくれとくせい(夢特性): " + d.hiddenAbilities : "") + "<br><h3>種族値</h3><ul><li>HP: " + d.stats.hp + "</li><li>こうげき: " + d.stats.attack + "</li><li>ぼうぎょ: " + d.stats.defence + "</li><li>とくこう: " + d.stats.spAttack + "</li><li>とくぼう: " + d.stats.spDefence + "</li><li>すばやさ: " + d.stats.speed +"</li></ul>";
+			}
+		}
     </script>
   </body>
 <html>
