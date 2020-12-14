@@ -69,8 +69,9 @@
         var evolutions = "";
         if(d.evolutions.length > 0){
           d.evolutions.forEach(function(e_no){
-            evolutions = evolutions + "<a onclick='document.getElementById(\"searchbox\").value = \"" + e_no + "\";searchinput();' title='クリックすると検索ボックスに数字が入力され検索されます'>" + e_no + "</a>, ";
+            evolutions = evolutions + "<a href='#' onclick='document.getElementById(\"searchbox\").value = \"" + e_no + "\";searchinput();' title='クリックすると検索ボックスに数字が入力され検索されます'>" + e_no + "</a>, ";
           });
+          evolutions = evolutions.slice(0,-1);
         }
 				dataspace.innerHTML = "<h2>" + d.no + ": " + d.name + (d.form == "" ? "" : " | " + d.form) + (d.isMegaEvolution ? " [メガ]" : "") + "</h2>タイプ: " + d.types + "<br>" + (evolutions==""?"" : "進化先: " + evolutions + "<br>") + "とくせい: " + d.abilities + (d.hiddenAbilities != "" ? "<br>かくれとくせい(夢特性): " + d.hiddenAbilities : "") + "<br><h3>種族値</h3><ul><li>HP: " + d.stats.hp + "</li><li>こうげき: " + d.stats.attack + "</li><li>ぼうぎょ: " + d.stats.defence + "</li><li>とくこう: " + d.stats.spAttack + "</li><li>とくぼう: " + d.stats.spDefence + "</li><li>すばやさ: " + d.stats.speed +"</li></ul>";
 			}else{
