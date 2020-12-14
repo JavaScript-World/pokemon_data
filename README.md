@@ -4,6 +4,7 @@
 - ガラルのすがたを追加
 - メルタン、メルメタル、ガラルのポケモンを追加
 - レギジガスからレジギガスに修正
+- index.htmlを追加 (テスト用ページ)  アクセス: http://javascript-world.github.io/pokemon_data
 # pokemon_data
 
 ポケットモンスターの全ポケモンの日本語データです。ご自由にお使いください。
